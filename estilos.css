@@ -1,0 +1,84 @@
+
+.container{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 9%;
+    
+}
+.cuerpo-principal{
+    width: 300px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.producto{
+    border-radius: 10px;    
+}
+
+.descripcion h1{
+    color: hsl(0, 0%, 100%);
+}
+.descripcion h1:hover{
+    color: hsl(178, 100%, 50%)};
+}
+
+.descripcion p{
+    Font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.precio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#logo-eth{
+    padding-right: 10px;
+}
+#valor-eth{
+    padding-right: 100px;
+    color:hsl(178, 100%, 50%)}
+#logo-reloj{
+    padding-right: 10px;
+}
+#tiempo-restante{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    color:hsl(215, 32%, 27%);
+}
+.usuario{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#foto-avatar{
+    /* background: #fff; */
+    /* padding-right: 10px;    */
+}
+#parrafo-avatar{
+    padding: 5px; 
+    color: hsl(215, 51%, 70%);
+}
+a{ 
+    text-decoration:none; 
+    color: hsl(0, 0%, 100%);
+}
+a:hover{
+       
+    color: hsl(178, 100%, 50%);
+}
+
+img#foto-avatar{
+    
+    /* background: #fff; */
+}
+
